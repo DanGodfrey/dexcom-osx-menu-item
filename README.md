@@ -2,6 +2,8 @@
 
 ## Install
 
+Currently, these instructions are for those that are relatively tech savvy. Time pending, I may clean this up to simplify install. 
+
 ### Dependencies
 
 1. Install [openaps](https://github.com/openaps/openaps) so you can interact with your Dexcom
@@ -10,4 +12,8 @@
 
 ### Script
 
-1. Clone 
+1. Clone the git repo <code>git clone git@github.com:DanGodfrey/dexcom-osx-menu-item.git</code>
+2. Modify the env config section of the script as needed for your setup
+3. Launch BitBar
+4. If you have not set a Plugin Folder, it will ask you to provide one. Point it at the bin directory of the git repo
+5. If you are not prompted, open BitBar's preferences and do the same.
