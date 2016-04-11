@@ -17,3 +17,4 @@ Currently, these instructions are for those that are relatively tech savvy. Time
 3. Launch BitBar
 4. If you have not set a Plugin Folder, it will ask you to provide one. Point it at the bin directory of the git repo
 5. If you are not prompted, open BitBar's preferences and do the same.
+6. If you want to use the American units of mg/dL, replace <code>$proper_glucose</code> with <code>$american_glucose</code> at the end of the script
